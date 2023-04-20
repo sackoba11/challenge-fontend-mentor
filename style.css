@@ -1,100 +1,94 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap');
-
-ul{
+ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh; 
-    width:  800px;  
+    min-height: 80vh;
+    width: 800px;
     margin: auto auto;
 }
 
-li{
+li {
     list-style: none;
     padding: 30px;
 }
 
-h2{
+h2 {
     margin-top: 30px;
     font-family: 'Big Shoulders Display';
-    color : hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
 }
 
-p{
+p {
     font-size: 15px;
-    color:  hsla(0, 0%, 100%, 0.75);
-    margin-bottom:100px ;
-    font-family:  'Lexend Deca' ; 
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 100px;
+    font-family: 'Lexend Deca';
     line-height: normal;
 }
 
-#section1{
+#section1 {
     background: hsl(31, 77%, 52%);
-    border-radius:5px 0px 0px 5px;
-    height: 350px;       
-}
-
-#section2{
-    background: hsl(184, 100%, 22%) ;
-    height: 350px; 
-}
-
-#section3{
-    background: hsl(179, 100%, 13%);
-    border-radius:0px 5px 5px 0px;
+    border-radius: 5px 0px 0px 5px;
     height: 350px;
-   
 }
 
-a{
+#section2 {
+    background: hsl(184, 100%, 22%);
+    height: 350px;
+}
+
+#section3 {
+    background: hsl(179, 100%, 13%);
+    border-radius: 0px 5px 5px 0px;
+    height: 350px;
+}
+
+a {
     background: hsl(0, 0%, 95%);
-    text-decoration: none; 
+    text-decoration: none;
     border-radius: 20px;
     padding: 8px 18px;
     font-size: 15px;
-    font-family:  'Lexend Deca' ; 
+    font-family: 'Lexend Deca';
 }
 
-#btn1{
-    color:hsl(31, 77%, 52%);
+#btn1 {
+    color: hsl(31, 77%, 52%);
 }
 
-#btn2{
-    color:hsl(184, 100%, 22%) ;
+#btn2 {
+    color: hsl(184, 100%, 22%);
 }
 
-#btn3{
-    color:hsl(179, 100%, 13%) ;
+#btn3 {
+    color: hsl(179, 100%, 13%);
 }
 
-img{
+img {
     width: 40px;
 }
 
-#btn1:hover, #btn2:hover, #btn3:hover{
-    border:  hsla(0, 0%, 100%, 0.75) solid 2px;
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+    border: hsla(0, 0%, 100%, 0.75) solid 2px;
     background: transparent;
-    color:  hsla(0, 0%, 100%, 0.75);
-    
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
-
 @media screen and (max-width:375px) {
-    ul{
+    ul {
         flex-direction: column;
         width: 270px;
         min-height: 0vh;
-        
+        margin: 0px;
     }
-    #section3
-    {
-        border-radius:0px 0px 5px 5px;
+    #section3 {
+        border-radius: 0px 0px 5px 5px;
     }
-    #section1
-    {
-        border-radius:5px 5px 0px 0px;
+    #section1 {
+        border-radius: 5px 5px 0px 0px;
     }
-    
 }
