@@ -84,6 +84,7 @@ img {
         width: 270px;
         min-height: 0vh;
         margin: 0px;
+        align-items: center;
     }
     #section3 {
         border-radius: 0px 0px 5px 5px;
